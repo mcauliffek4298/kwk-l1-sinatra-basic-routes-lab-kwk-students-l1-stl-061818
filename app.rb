@@ -1,6 +1,6 @@
 require 'sinatra'
 
-class App<Sinatra::Base
+class App<Sinatra::Base   #<<<<<<<<<<<sinatra and base must be connected and like that 
   
   get '/' do 
     "My name is Kathryn." 
