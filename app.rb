@@ -1,6 +1,6 @@
 require 'sinatra'
 
-class App < Sinatra :: Base
+class App<Sinatra::Base
   
   get '/' do 
     "My name is Kathryn." 
